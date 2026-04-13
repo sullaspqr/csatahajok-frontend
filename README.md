@@ -1,3 +1,9 @@
+# Csatahajók feladatsor
+
+Kicsit komplex feladatsor, nem a hagyományos CRUD-t kéri számon, hanem
+index nélküli, string-alapú keresést tesz lehetővé, úgy, hogy a csatahajókat
+név alapján keresi ki, illetve a csatákat és a résztvevőket is listázza.
+
 # React + Vite + Kandó
 
 Update: Kandós favicon és specifikus ikonok, bootstrap-re és bootstrap-icons-ra felkészítve a main.jsx és a package.json-ben is!
