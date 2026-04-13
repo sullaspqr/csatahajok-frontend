@@ -11,6 +11,8 @@ export const Denmark = () => {
         setFetchPending(true);
         axios.get(`https://localhost:7074/api/Csata/Resztvevok/Denmark%20Strait`)
         .then(response => {
+            // mivel itt a response.data nem objektumot ad vissza, hanem tömböt, a hivatkozás neve lesz a lekérdezés alapja majd,
+            // és nem bontjuk tovább ( mivel objektumnál kulcs-érték párok vannak, tömbnél meg értékek csak! )
             setCsatahajok(response.data);
             setFetchPending(false);
         })
